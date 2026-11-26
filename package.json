@@ -1,0 +1,12 @@
+{
+  "name": "hungergames",
+  "version": "1.0.0",
+  "description": "Jeu multijoueur en ligne inspiré de Hunger Games : arène, cornucopia, buissons, évènements aléatoires.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "MIT"
+}
